@@ -3,7 +3,7 @@ import sys,time,datetime
 import logging
 
 
-log_path = '/var/log/catch_sigterm.log'
+log_path = '/var/jenkins_home/catch_sigterm.log'
 logger = logging.getLogger(__name__)
 hdlr = logging.FileHandler(log_path)
 formatter = logging.Formatter(
